@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #350f5a;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,15 +46,16 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
-	color: #FFFFFF;
+	border: 1px solid rgb(97, 31, 160);
+	background-color: rgb(97, 31, 160);
+	color: #ffffff;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	margin-top: 10px;
 }
 
 button:active {
@@ -90,7 +91,7 @@ input {
 }
 
 .container {
-	background-color: #fff;
+	background-color: rgb(53, 53, 78);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -160,9 +161,9 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #7489ce;
+	background: -webkit-linear-gradient(to right, #3f3a47, #4b1d28);
+	background: linear-gradient(to right, #2b130f, #4e1d7c);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -227,7 +228,7 @@ input {
 }
 
 footer {
-    background-color: #222;
+    background-color: rgb(97, 31, 160);
     color: #fff;
     font-size: 14px;
     bottom: 0;
